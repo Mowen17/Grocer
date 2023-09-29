@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: myriad pro;
+    background-color: #e9eef5;
+}
+.container{
+    width: 450px;
+    height: 600;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    position: absolute;
+    top: 13%;
+    left: 33%;
+    box-shadow: 5px 40px 30px rgba(19,56,106,0.4);}
+    .admin{
+        float: left;
+        color: #58a2ed;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: arial;}
+        .continue{
+            float: right;
+            color: rgba(211,219,219.1.00);
+            font-size: 25px;}
+            .admin, .continue{
+                margin: 20px 40px;}
+                form{
+                    text-align: center;
+                    margin-top: 40px;}
+                    .fix{
+                        clear: both;}
+
+.inputbox input{
+    height: 45px;
+    width: 200px;
+    border: 1px solid #eaedf4;
+    border-radius: 19px;
+    font-size: 11px;
+    background-color: #f5f6fa;
+    color: #505666;
+    padding: 0px 16px;
+    outline: none;
+}
+.inputbox input[type=button]{
+    margin: 35px 0px 0px 0px;
+    width: 20%;
+    height: 38px;
+    color: #FFFFFF;
+    background-color: #2091eb;
+    border: none;
+}
